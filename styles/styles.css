@@ -149,7 +149,7 @@ h3 {
     border: 1px solid #AD1818;
     text-decoration: none;
     
-    width: 1150px;
+    width: 100%;
     padding-top: 56px;
     padding-bottom: 56px;
     border-radius: 5px;
@@ -273,4 +273,18 @@ h3 {
     letter-spacing: -0.6px;
     color: #FFF;
     opacity: 0.5;
+}
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 12px;
+    }
 }
