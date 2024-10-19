@@ -1,0 +1,30 @@
+.about__text {
+    width: 1048px;
+    margin-bottom: 30px;
+
+    font-size: 45px;
+    letter-spacing: -1.35px;
+    line-height: normal;
+
+}
+.about {
+    margin-bottom: 130px;
+}
+.about__btn {
+    display: inline-flex;
+    text-decoration: none;
+
+    width: auto 255px;
+    height: auto 67px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    border-radius: 5px;
+
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+    background-color: #AD1818;
+}

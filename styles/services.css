@@ -1,0 +1,23 @@
+.services {
+    background-color: #121212;
+    padding-top: 151px;
+    padding-bottom: 150px;
+}
+.services__topic {
+    color: #FFFFFF;
+}
+.services__wrapper {
+    margin-bottom: 60px;
+    list-style: none;
+}
+.services__img {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 270px;
+}
+.services__name {
+    color: #FFFFFF;
+}
+.services:nth-last-child(1) {
+    margin-bottom: 150px;
+}
