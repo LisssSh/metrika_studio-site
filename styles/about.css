@@ -8,7 +8,7 @@
 
 }
 .about {
-    margin-bottom: 130px;
+    margin-bottom: 150px;
 }
 .about__btn {
     display: inline-flex;
@@ -27,4 +27,35 @@
     letter-spacing: -0.6px;
     color: #FFFFFF;
     background-color: #AD1818;
+}
+@media (max-width: 1199px) {
+    .about {
+        margin-bottom: 120px;
+    }
+    .about__text {
+        width: 690px;
+        font-size: 35px;
+        letter-spacing: -1.05px;
+    }
+}
+@media (max-width: 767px) {
+    .about {
+        margin-bottom: 80px;
+    }
+    .about__text {
+        width: 100%;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+    .about__btn {
+        width: auto 140px;
+        height: auto 51px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        border-radius: 3.8px;
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
 }
