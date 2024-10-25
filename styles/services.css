@@ -10,38 +10,52 @@
     margin-bottom: 104px;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 81px;
     justify-content: space-between;
+    row-gap: 81px;
+
 }
 .services__wrapper {
+    width: calc(50% - 5px);
     list-style: none;
 }
 .services__img-1 {
     background-image: url(../resources/servis-1.png);
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     margin-bottom: 15px;
-    width: 569px;
+    width: 100%;
     height: 388px;
 }
 .services__img-2 {
     background-image: url(../resources/servis-2.png);
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     margin-bottom: 15px;
-    width: 569px;
+    width: 100%;
     height: 388px;
 }
 .services__img-3 {
     background-image: url(../resources/servis-3.png);
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     margin-bottom: 15px;
-    width: 569px;
+    width: 100%;
     height: 388px;
 }
 .services__img-4 {
     background-image: url(../resources/servis-4.png);
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     margin-bottom: 15px;
-    width: 569px;
+    width: 100%;
     height: 388px;
 }
 .services__price__wrapper {
@@ -75,4 +89,75 @@
     text-align: center;
     color: #FFFFFF;
     background-color: #AD1818;
+}
+@media (max-width: 1199px) {
+.services {
+    padding-bottom: 150px;
+ }
+ .services__flex__wrapper { 
+    margin-bottom: 80px;
+    row-gap: 80px;
+ }
+ .services__img-1 {
+    height: 315px;
+}
+.services__img-2 {
+    height: 315px;
+}
+.services__img-3 {
+    height: 315px;
+}
+.services__img-4 {
+    height: 315px;
+}
+.services__price__wrapper {
+    top: 31px;
+    left: 32px;
+}
+.services__price {
+    margin: 6px 27px;
+    font-size: 20px;
+}
+}
+@media (max-width: 767px) {
+.services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+ }
+ .services__flex__wrapper { 
+    margin-bottom: 60px;
+    row-gap: 60px;
+ }
+ .services__wrapper {
+    width: 100%;
+ }
+ .services__img-1 {
+    height: 240px;
+}
+.services__img-2 {
+    height: 240px;
+}
+.services__img-3 {
+    height: 240px;
+}
+.services__img-4 {
+    height: 240px;
+}
+.services__price__wrapper {
+    top: 23px;
+    left: 24px;
+    border-radius: 3.8px;
+}
+.services__price {
+    margin: 5px 24px;
+    font-size: 14px;
+    letter-spacing: -0.42px;
+}
+.services__btn {
+    padding-top: 37px;
+    padding-bottom: 36px;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    border-radius: 3.802px;
+}
 }
