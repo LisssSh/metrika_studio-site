@@ -18,50 +18,31 @@
     width: calc(50% - 5px);
     list-style: none;
 }
-.services__img-1 {
-    background-image: url(../resources/servis-1.png);
-    position: relative;
+.services__img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    position: relative;
     margin-bottom: 15px;
     width: 100%;
     height: 388px;
+}
+.services__img-1 {
+    background-image: url(../resources/servis-1.png);
 }
 .services__img-2 {
     background-image: url(../resources/servis-2.png);
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    margin-bottom: 15px;
-    width: 100%;
-    height: 388px;
 }
 .services__img-3 {
     background-image: url(../resources/servis-3.png);
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    margin-bottom: 15px;
-    width: 100%;
-    height: 388px;
 }
 .services__img-4 {
     background-image: url(../resources/servis-4.png);
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    margin-bottom: 15px;
-    width: 100%;
-    height: 388px;
 }
 .services__price__wrapper {
     position: absolute;
-    top: 34px;
     left: 30px;
+    top: 32px;
     border-radius: 5px;
     background-color: #AD1818;
 }
