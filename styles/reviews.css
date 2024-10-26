@@ -8,10 +8,10 @@
     gap: 49px;
 }
 .col {
-    width: 530px;
+    width: calc(50% - 25px);
 }
 .col__big {
-    width: 861px;
+    width: 75%;
 }
 .reviews__title {
     margin-bottom: 14px;
@@ -19,7 +19,6 @@
     letter-spacing: -1.35px;
 }
 .reviews__text {
-    margin-bottom: 30px;
     font-size: 22px;
     letter-spacing: -0.66px;
 }
@@ -33,10 +32,7 @@
         gap: 10px;
     }
     .col {
-        width: 460px;
-    }
-    .col__big {
-        width: 694px;
+        width: calc(50% - 5px);
     }
     .reviews__title {
         margin-bottom: 25px;
@@ -44,7 +40,6 @@
         letter-spacing: -1.05px;
     }
     .reviews__text {
-        margin-bottom: 25px;
         font-size: 20px;
         letter-spacing: -0.6px;
     }
@@ -71,7 +66,6 @@
         letter-spacing: -0.75px;
     }
     .reviews__text {
-        margin-bottom: 10px;
         font-size: 16px;
         letter-spacing: -0.48px;
     }

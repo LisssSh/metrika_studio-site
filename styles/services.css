@@ -55,22 +55,6 @@
 .services__name {
     color: #FFFFFF;
 }
-.services__btn {
-    display: block;
-    text-decoration: none;
-    
-    width: 100%;
-    padding-top: 56px;
-    padding-bottom: 56px;
-    border-radius: 5px;
-
-    font-size: 30px;
-    letter-spacing: -0.9px;
-    line-height: normal;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #AD1818;
-}
 @media (max-width: 1199px) {
 .services {
     padding-bottom: 150px;
@@ -133,12 +117,5 @@
     margin: 5px 24px;
     font-size: 14px;
     letter-spacing: -0.42px;
-}
-.services__btn {
-    padding-top: 37px;
-    padding-bottom: 36px;
-    font-size: 22px;
-    letter-spacing: -0.66px;
-    border-radius: 3.802px;
 }
 }

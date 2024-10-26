@@ -43,6 +43,30 @@ h3 {
     letter-spacing: -0.9px;
     color: #121212;
 }
+.full__width__btn {
+    display: block;
+    border: 1px solid #AD1818;
+    text-decoration: none;
+    
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    border-radius: 5px;
+
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    line-height: normal;
+    text-align: center;
+    color: #AD1818;
+}
+.full__width__btn:hover {
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+.full__width__btn__red {
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
 @media (max-width: 1199px) {
     .container {
         width: 100%;
@@ -84,5 +108,12 @@ h3 {
         margin-bottom: 11px;
         font-size: 18px;
         letter-spacing: -0.54px;
+    }
+    .full__width__btn {
+        padding-top: 37px;
+        padding-bottom: 36px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+        border-radius: 3.802px;
     }
 }

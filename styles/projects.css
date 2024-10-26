@@ -21,26 +21,6 @@
     color: #AD1818;
     text-decoration: none;
 }
-.projects__btn {
-    display: block;
-    border: 1px solid #AD1818;
-    text-decoration: none;
-    
-    width: 100%;
-    padding-top: 56px;
-    padding-bottom: 56px;
-    border-radius: 5px;
-
-    font-size: 30px;
-    letter-spacing: -0.9px;
-    line-height: normal;
-    text-align: center;
-    color: #AD1818;
-}
-.projects__btn:hover {
-    background-color: #AD1818;
-    color: #FFFFFF;
-}
 @media (max-width: 1199px) {
     .projects {
         margin-bottom: 100px;
@@ -73,11 +53,4 @@
         font-size: 16px;
         letter-spacing: -0.48px;
     }
-    .projects__btn {
-        padding-top: 37px;
-        padding-bottom: 37px;
-        border-radius: 3.8px;
-        font-size: 22px;
-        letter-spacing: -0.66px;
-   }
 }
