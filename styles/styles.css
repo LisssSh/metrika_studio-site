@@ -5,7 +5,7 @@
 @import url(services.css);
 @import url(reviews.css);
 @import url(contacts.css);
-@import url(full_page_img.css);
+@import url(gallery.css);
 @import url(footer.css);
 html {
     scroll-behavior: smooth;

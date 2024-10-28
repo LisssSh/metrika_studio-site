@@ -1,0 +1,117 @@
+.gallery {
+    position: relative;
+}
+.gallery__title__wrapper {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 67px;
+}
+.gallery__title {
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    color: #fff;
+}
+.gallery__slides {
+    height: 717px;
+    position: relative;
+}
+.gallery__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.gallery__slide_active {
+    opacity: 1;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__slide__text__wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+}
+.galerry__slide__text {
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    color: #fff;
+}
+.gallery__controls__wrapper {
+    position: absolute;
+    width: 100%;
+    left: -10px;
+    bottom: 162px;
+}
+.gallery__controls {
+    display: flex;
+}
+.gallery__button {
+    margin-right: 14px;
+    width: 40px;
+    height: 40px;
+}
+.gallery__button:hover {
+    opacity: 0.5;
+}
+@media (max-width: 1199px) {
+    .gallery__title__wrapper {
+        left: 34px;
+        top: 80px;
+    }
+    .gallery__title {
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+    .gallery__slides {
+        height: 536px;
+    }
+    .gallery__slide__text__wrapper {
+        bottom: 80px;
+        left: 23px;
+    }
+    .galerry__slide__text {
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+    .gallery__controls__wrapper {
+        bottom: 152px;
+        left: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .gallery__title__wrapper {
+        top: 61px;
+        left: 0;
+    }
+    .gallery__title {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    .gallery__slides {
+        height: 408px;
+    }
+    .gallery__slide__text__wrapper {
+        bottom: 60px;
+        left: 0;
+    }
+    .galerry__slide__text {
+        font-size: 19px;
+        letter-spacing: -0.57px;
+    }
+    .gallery__controls__wrapper {
+        bottom: 50%;
+        left: -10px;
+    }
+    .gallery__controls {
+        justify-content: space-between;
+    }
+    .gallery__button {
+        margin-right: 0;
+    }
+}
