@@ -1,29 +1,17 @@
 .contacts {
     margin-top: 150px;
-    margin-bottom: 160px;
+    margin-bottom: 150px;
 }
-.contacts__container::before {
-    content: '';
-    position: relative;
-    bottom: -12px;
-    left: -7px;
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-image: url(../resources/contacts.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+.contacts__title {
+    margin-bottom: 74px;
 }
-.contacts__text {
-    margin-top: 36px;
-    margin-bottom: 32px;
-    font-size: 18px;
-    letter-spacing: -0.54px;
+.contacts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 .contacts__link {
+    margin-right: 104px;
     display: block;
-    margin-bottom: 30px;
     width: fit-content;
     font-size: 60px;
     line-height: 60px;
@@ -34,4 +22,63 @@
 .contacts__link:hover {
     opacity: 0.5;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
+}
+.contacts__link::before {
+    content: '';
+    position: relative;
+    top: -26px;
+    left: -7px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.contacts__number::before {
+    background-image: url(../resources/contacts-number.png);
+}
+.contacts__email::before {
+    left: -1px;
+    background-image: url(../resources/contacts-email.png);
+}
+@media (max-width: 1199px) {
+    .contacts {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    .contacts__link {
+        margin-right: 114px;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+}
+@media (max-width: 767px) {
+    .contacts {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .contacts__title {
+        margin-bottom: 58px;
+    }
+    .contacts__link {
+        margin-right: 0;
+        margin-bottom: 58px;
+        font-size: 35px;
+        line-height: 46px;
+        letter-spacing: -1.05px;
+    }
+    .contacts__link::before {
+        top: -20px;
+        width: 18px;
+        height: 18px;
+    }
+}
+@media (max-width: 900px) {
+    .contacts__wrapper {
+        flex-direction: column;
+    }
+    .contacts__link {
+    margin-bottom: 60px;
+    }
 }
