@@ -43,6 +43,25 @@
     font-size: 18px;
     letter-spacing: -0.54px;
 }
+.popup__input__wrapper {
+    margin-bottom: 80px;
+}
+.popup__input {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: -0.75px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.popup__input:focus {
+    outline: none;
+}
+.popup__input::placeholder {
+    opacity: 0.5;
+}
 .popup__button {
     display: block;
     text-decoration: none;
@@ -99,5 +118,13 @@
         height: 30px;
         top: 40px;
         right: 29px;
+    }
+    .popup__input__wrapper {
+        margin-bottom: 60px;
+    }
+    .popup__input {
+        margin-bottom: 40px;
+        font-size: 18px;
+        letter-spacing: -0.54px;
     }
 }

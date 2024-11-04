@@ -12,29 +12,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header class="nav">
+  <header class="header">
         <div class="container">
-         <div class="nav__wrapper__logo">
-             <img class="nav__logo" src="resources/logo.png" alt="Логотип студии МЕТРИКА.">
+          <div class="header__wrapper">
+             <div class="logo">
+                <img class="logo__img" src="resources/logo.png" alt="Логотип студии дизайна МЕТРИКА">
+             </div>
+             <nav class="nav">
+                <ul class="nav__wrapper">
+                     <li>
+                         <a class="nav__link" href="#aboutus">О НАС</a>
+                     </li>  
+                     <li>
+                         <a class="nav__link" href="#projects">ПРОЕКТЫ</a>
+                     </li> 
+                     <li>
+                         <a class="nav__link" href="#servis">УСЛУГИ</a> 
+                     </li>
+                     <li>
+                         <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+                     </li>
+                </ul>
+             </nav>
+             <div class="js-burger-btn burger-btn"></div>
          </div>
-         <nav class="nav__container">
-            <ul class="nav__wrapper__link">
-                <li>
-                    <a class="nav__link" href="#aboutus">О НАС</a>  
-                </li>
-                <li>
-                    <a class="nav__link" href="#projects">ПРОЕКТЫ</a> 
-                </li>
-                <li>
-                    <a class="nav__link" href="#servis">УСЛУГИ</a> 
-                </li>
-                <li>
-                    <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
-                </li>
-            </ul>
-         </nav>
        </div>
-    </header> -->
+    </header> 
     <main>
      <section class="hero">
          <div class="container">
@@ -135,6 +138,17 @@
             <div class="js-popup__content popup__content">
                 <p class="popup__title">Заказать услугу</p>
                 <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                <ul class="popup__input__wrapper">
+                    <li>
+                        <input class="popup__input" type="text" placeholder="Имя">
+                    </li>
+                    <li>
+                        <input class="popup__input" type="text" placeholder="Электронная почта">
+                    </li>
+                    <li>
+                        <input class="popup__input" type="text" placeholder="Номер телефона">
+                    </li>
+                </ul>
                 <a class="popup__button" href="/404">Отправить</a>
                 <div class="js-popup__close-btn popup__close__btn"></div>
             </div>
@@ -245,6 +259,20 @@
          <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
      </div>
  </footer>
+ <div class="js-burger burger">
+    <div class="js-burger__content burger__content">
+        <div class="burger__logo">
+            <img class="logo__img" src="resources/logo.png" alt="Логотип студии дизайна МЕТРИКА">
+        </div>
+        <nav class="burger_nav">
+            <a href="#aboutus" class="burger__nav__link">О НАС</a>
+            <a href="#projects" class="burger__nav__link">ПРОЕКТЫ</a>
+            <a href="#servis" class="burger__nav__link">УСЛУГИ</a>
+            <a href="#contacts" class="burger__nav__link">КОНТАКТЫ</a>
+        </nav>
+    </div>
+</div>
+ <script src="burger.js"></script>
  <script src="gallery.js"></script>
  <script src="popup.js"></script>
 </body>
