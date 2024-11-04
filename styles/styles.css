@@ -3,6 +3,7 @@
 @import url(about.css);
 @import url(projects.css);
 @import url(services.css);
+@import url(popup.css);
 @import url(reviews.css);
 @import url(contacts.css);
 @import url(gallery.css);
@@ -55,7 +56,6 @@ h3 {
 
     font-size: 30px;
     letter-spacing: -0.9px;
-    line-height: normal;
     text-align: center;
     color: #AD1818;
 }
