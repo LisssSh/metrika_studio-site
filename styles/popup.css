@@ -27,7 +27,7 @@
     position: relative;
     width: 777px;
     max-height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     background-color: #fff;
     border-radius: 10px;
 }
@@ -48,31 +48,7 @@
 }
 .popup__input {
     margin-bottom: 50px;
-    padding-bottom: 10px;
-    display: block;
     width: 100%;
-    font-size: 25px;
-    letter-spacing: -0.75px;
-    border: none;
-    border-bottom: 1px solid #000;
-}
-.popup__input:focus {
-    outline: none;
-}
-.popup__input::placeholder {
-    opacity: 0.5;
-}
-.popup__button {
-    display: block;
-    text-decoration: none;
-    width: 100%;
-    padding: 20px 40px;
-    border-radius: 5px;
-    font-size: 20px;
-    letter-spacing: -0.6px;
-    text-align: center;
-    color: #fff;
-    background-color: #AD1818;
 }
 .popup__close__btn {
     position: absolute;
@@ -124,7 +100,5 @@
     }
     .popup__input {
         margin-bottom: 40px;
-        font-size: 18px;
-        letter-spacing: -0.54px;
     }
 }

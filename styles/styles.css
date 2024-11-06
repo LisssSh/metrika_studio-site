@@ -1,13 +1,16 @@
 @import url(header.css);
+@import url(burger.css);
 @import url(hero.css);
 @import url(about.css);
 @import url(projects.css);
 @import url(services.css);
 @import url(popup.css);
+@import url(input.css);
 @import url(reviews.css);
 @import url(contacts.css);
 @import url(gallery.css);
 @import url(footer.css);
+@import url(button.css);
 html {
     scroll-behavior: smooth;
 }
@@ -16,6 +19,10 @@ body {
     background-color: #FFFFFF;
     font-family: 'Manrope', Courier, monospace;
 
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
 }
 .container {
     margin: 0 auto;
@@ -43,29 +50,6 @@ h3 {
     font-size: 30px;
     letter-spacing: -0.9px;
     color: #121212;
-}
-.full__width__btn {
-    display: block;
-    border: 1px solid #AD1818;
-    text-decoration: none;
-    
-    width: 100%;
-    padding-top: 56px;
-    padding-bottom: 56px;
-    border-radius: 5px;
-
-    font-size: 30px;
-    letter-spacing: -0.9px;
-    text-align: center;
-    color: #AD1818;
-}
-.full__width__btn:hover {
-    background-color: #AD1818;
-    color: #FFFFFF;
-}
-.full__width__btn__red {
-    color: #FFFFFF;
-    background-color: #AD1818;
 }
 @media (max-width: 1199px) {
     .container {
@@ -108,12 +92,5 @@ h3 {
         margin-bottom: 11px;
         font-size: 18px;
         letter-spacing: -0.54px;
-    }
-    .full__width__btn {
-        padding-top: 37px;
-        padding-bottom: 36px;
-        font-size: 22px;
-        letter-spacing: -0.66px;
-        border-radius: 3.802px;
     }
 }

@@ -1,0 +1,99 @@
+.burger-btn {
+    display: none;
+}
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    visibility: hidden;
+}
+.burger__content {
+    width: 274px;
+    max-height: 100%;
+    overflow-y: auto;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    background-color: #fff;
+    transition: transform 0.3s linear;
+    transform: translateX(100%);
+}
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+} 
+.burger_open .burger__content {
+    transform: translateX(0);
+}
+.burger__logo {
+    margin-bottom: 50px;
+    width: 156px;
+    height: 26px;
+}
+.burger_nav {
+    margin-bottom: 90px;
+    display: flex;  
+    flex-direction: column;
+    gap: 20px;
+}
+.burger__nav__link {
+    display: block;
+    font-size: 25px;
+    letter-spacing: -0.75px;
+    text-decoration: none;
+    color: #000;
+}
+.burger__text {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    opacity: 0.5;
+}
+.burger__contacts__link {
+    font-size: 20px;
+    color: #121212;
+    text-decoration: none;
+}
+.burger__contacts__link-tel {
+    line-height: 46px;
+}
+.burger__contacts__link-email {
+    line-height: 25px;
+}
+@media (max-width: 1199px) {
+    .burger-btn {
+        position: absolute;
+        right: 20px;
+        z-index: 100;
+        width: 50px;
+        height: 10px;
+        display: block;
+        background: none;
+        border: none;
+        background-image: url(../resources/burger_icon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        cursor: pointer;
+    }
+    .burger-btn_open {
+        width: 34px;
+        height: 34px;
+        background-image: url(../resources/popup_close.png);
+    }
+}
+@media (max-width: 767px) {
+    .burger-btn {
+        width: 40px;
+        height: 7px;
+    }
+    .burger-btn_open {
+        width: 34px;
+        height: 34px;
+    }
+}
